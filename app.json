@@ -1,19 +1,20 @@
 {
   "expo": {
-    "name": "ExpoProject",
-    "slug": "ExpoProject",
+    "name": "Myapp",
+    "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package":"com.dnyaneshwar.react_native"
     },
     "android": {
       "adaptiveIcon": {
@@ -24,7 +25,8 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "package":"com.dnyaneshwar.react_native"
     },
     "plugins": [
       "expo-router"
